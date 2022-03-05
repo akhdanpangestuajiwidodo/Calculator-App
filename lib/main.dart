@@ -44,6 +44,13 @@ class MyHomePage extends StatelessWidget {
             shrinkWrap: true,
             crossAxisCount: 4,
             children: <Widget>[
+              Container(
+                color: Theme.of(context).primaryColor,
+                child: Text(
+                  'C',
+                  style: Theme.of(context).textTheme.headline4!.copyWith(color: Theme.of(context).primaryColorDark),
+                ),
+              ),
             ],
           ),
         ],
