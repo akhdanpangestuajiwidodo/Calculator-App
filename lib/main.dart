@@ -49,62 +49,34 @@ class MyHomePage extends StatelessWidget {
                 backgroundColor: Theme.of(context).primaryColorLight,
                 foregroundColor: Theme.of(context).primaryColorDark,
                 text: 'C',
+                onTap: (){
+                  print("Di klik bos C");
+                },
               ),
               CalculatorButton(
                 backgroundColor: Theme.of(context).primaryColorLight,
                 foregroundColor: Theme.of(context).primaryColorDark,
                 text: '+/-',
+                onTap: (){
+                  print("Di klik bos +/-");
+                },
               ),
               CalculatorButton(
                 backgroundColor: Theme.of(context).primaryColorLight,
                 foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
-              ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
+                text: 'X',
+                onTap: (){
+                  print("Di klik bos X");
+                },
               ),
               CalculatorButton.Icon(
                 backgroundColor: Theme.of(context).primaryColorDark,
                 foregroundColor: Theme.of(context).primaryColorLight,
                 text: 'Backspace',
                 icon: Icons.backspace,
+                onTap: (){
+                  print('Delete');
+                },
               ),
             ],
           ),
