@@ -100,10 +100,11 @@ class MyHomePage extends StatelessWidget {
                 foregroundColor: Theme.of(context).primaryColorDark,
                 text: 'C',
               ),
-              CalculatorButton(
-                backgroundColor: Theme.of(context).primaryColorLight,
-                foregroundColor: Theme.of(context).primaryColorDark,
-                text: 'C',
+              CalculatorButton.Icon(
+                backgroundColor: Theme.of(context).primaryColorDark,
+                foregroundColor: Theme.of(context).primaryColorLight,
+                text: 'Backspace',
+                icon: Icons.backspace,
               ),
             ],
           ),
